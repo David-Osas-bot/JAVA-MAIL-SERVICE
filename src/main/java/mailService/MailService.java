@@ -8,7 +8,7 @@ import org.example.MailConfig;
 
 import java.util.Properties;
 
-public class MailService implements MailInterface {
+public class MailService  implements MailInterface {
 
     private static final Session SESSION = MailConfig.getSession();
     private static final String SENDER_EMAIL = MailConfig.get("mail.username");
